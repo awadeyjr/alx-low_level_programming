@@ -1,8 +1,10 @@
 #include "main.h"
 /**
- * int _islower(int c) - Entry point
+ * _islower - Entry point
  *
- * Return: Always 0
+ * @c: The character in ASCII code
+ *
+ * Return: 1 for lowercase character . 0 for rest.
  */
 int _islower(int c)
 {
