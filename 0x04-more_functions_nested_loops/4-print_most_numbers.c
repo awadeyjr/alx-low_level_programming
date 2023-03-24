@@ -2,7 +2,7 @@
 /**
  * print_most_numbers - print 0 - 9 apart
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 void print_most_numbers(void)
 {
@@ -12,7 +12,7 @@ void print_most_numbers(void)
 	{
 		if (i == 2 || i == 4)
 			continue ;
-		_putchar(i);
+		_putchar(i + 48);
 	}
 	_putchar('\n');
 }
