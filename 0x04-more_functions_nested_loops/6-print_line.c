@@ -1,10 +1,8 @@
 #include "main.h"
-
 /**
  * print_line - print _
- * 
- * @n: _ times
  *
+ * @n: _ times
  */
 void print_line(int n)
 {
