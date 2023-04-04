@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _strcat - concatenates 2 strings
+ * _strncat - concatenates 2 strings
  * @dest: destination string
  * @src: source string
  * Return: the dest
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src)
 {
 	int destlen = 0;
 	int srclen = 0;
@@ -17,5 +17,5 @@ char *_strncat(char *dest, char *src, int n)
 		srclen++;
 	for (i = 0 ; i <= srclen ; ++i)
 		dest[destlen + i] = src[i];
-	return(dest);
+	return (dest);
 }
